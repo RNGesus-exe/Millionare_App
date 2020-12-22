@@ -64,6 +64,10 @@
         "source": "/home/rngesus/AndroidStudioProjects/MillionareApp/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
+        "merged": "/home/rngesus/AndroidStudioProjects/MillionareApp/app/build/intermediates/res/merged/debug/layout_fragment_log_in.xml.flat",
+        "source": "/home/rngesus/AndroidStudioProjects/MillionareApp/app/src/main/res/layout/fragment_log_in.xml"
+    },
+    {
         "merged": "/home/rngesus/AndroidStudioProjects/MillionareApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "/home/rngesus/AndroidStudioProjects/MillionareApp/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
