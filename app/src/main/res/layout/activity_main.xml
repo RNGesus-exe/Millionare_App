@@ -11,22 +11,16 @@
         android:id="@+id/fragment"
         android:name="com.rngesus.millionareApp.RULES"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginRight="10dp"
-        tools:layout="@layout/fragment_r_u_l_e_s"
-        tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="91dp" />
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_r_u_l_e_s" />
 
     <fragment
         android:id="@+id/fragment2"
         android:name="com.rngesus.millionareApp.LogInFragment"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginRight="10dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         tools:layout="@layout/fragment_log_in" />
 
 </LinearLayout>

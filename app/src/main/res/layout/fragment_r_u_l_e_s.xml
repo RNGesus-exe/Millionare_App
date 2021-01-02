@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+
+
+<LinearLayout android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RULES">
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/black"
-        android:orientation="vertical">
+    android:background="@color/black"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
         <TextView
             android:id="@+id/Rule1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="30dp"
-            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
             android:text="TextView"
+            android:gravity="center"
             android:textColor="#FFFFFF"
             android:textSize="15dp"
             android:textStyle="bold|italic" />
@@ -26,8 +21,8 @@
         <TextView
             android:id="@+id/Rule2"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
             android:gravity="center"
             android:text="TextView"
             android:textColor="@color/white"
@@ -37,8 +32,8 @@
         <TextView
             android:id="@+id/Rule3"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
             android:gravity="center"
             android:text="TextView"
             android:textColor="@color/white"
@@ -48,19 +43,12 @@
         <TextView
             android:id="@+id/Rule4"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
             android:gravity="center"
             android:text="TextView"
             android:textColor="@color/white"
             android:textSize="15dp"
             android:textStyle="bold|italic" />
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="TextView" />
-
     </LinearLayout>
-</ScrollView>
