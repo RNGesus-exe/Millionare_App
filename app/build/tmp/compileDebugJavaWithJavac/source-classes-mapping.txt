@@ -1,6 +1,19 @@
+com/rngesus/millionareApp/RULES.java
+ com.rngesus.millionareApp.RULES
+com/rngesus/millionareApp/category_recycler_view.java
+ com.rngesus.millionareApp.category_recycler_view
+com/rngesus/millionareApp/Catagory.java
+ com.rngesus.millionareApp.Catagory
+ com.rngesus.millionareApp.Catagory$1
 com/rngesus/millionareApp/BuildConfig.java
  com.rngesus.millionareApp.BuildConfig
+com/rngesus/millionareApp/DataManager.java
+ com.rngesus.millionareApp.DataManager
+com/rngesus/millionareApp/category_adapter.java
+ com.rngesus.millionareApp.category_adapter
+ com.rngesus.millionareApp.category_adapter$ViewHolder
 com/rngesus/millionareApp/MainActivity.java
  com.rngesus.millionareApp.MainActivity
+ com.rngesus.millionareApp.MainActivity$1
 com/rngesus/millionareApp/LogInFragment.java
  com.rngesus.millionareApp.LogInFragment

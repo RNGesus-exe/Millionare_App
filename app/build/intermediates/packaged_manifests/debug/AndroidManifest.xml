@@ -9,6 +9,7 @@
         android:targetSdkVersion="30" />
 
     <application
+        android:name="com.rngesus.millionareApp.DataManager"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -18,6 +19,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.MillionareApp" >
+        <activity android:name="com.rngesus.millionareApp.Catagory" />
         <activity android:name="com.rngesus.millionareApp.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

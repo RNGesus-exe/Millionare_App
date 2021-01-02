@@ -9,15 +9,15 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    TextView txt1,txt2,txt3,txt4;
-    Button btn;
+    private TextView txt1,txt2,txt3,txt4;
+    private Button btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        initi();
+        init();
 
         txt1.setText("There will be a total of 10 Questions");
         txt2.setText("If you get a question wrong its GAME OVER");
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-    void initi()
+    void init()
     {
         txt1=findViewById(R.id.Rule1);
         txt2=findViewById(R.id.Rule2);
